@@ -7,7 +7,7 @@ Although 4 textures were used to wrap around the teapot, i have used only two te
 The project uses the combination of opencv and opengl to render a textured teapot on aruco markers.
 Two windows are displayed on running the project.
 The opencv window creates border around the detected marker and also displays its id.
-The opengl window uses rotation vector and translation vector obtained from opencv functions.
+The opengl window uses rotation vector and translation vector obtained from opencv functions to display the textured teapot.
 A view matrix was made using an algorithm based on basic trigonometry.
 
 # CAMERA MATRIX FILE
