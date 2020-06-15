@@ -20,7 +20,7 @@ So,making one's own matrix is recommended.<br />
 # THE IMAGES OF TEXTURES AND ARUCO MARKERS ARE:
 ![ARUCO MARKER ID=2](https://github.com/AshishChouhan85/TEAPOT-DISPLAY-USING-AUGMENTED-REALITY/blob/master/ArUcoMarkers/aruco_2.png)<br />
 ![ARUCO MARKER ID=8](https://github.com/AshishChouhan85/TEAPOT-DISPLAY-USING-AUGMENTED-REALITY/blob/master/ArUcoMarkers/aruco_8.png)<br />
-![TEXTURE 1](https://github.com/AshishChouhan85/TEAPOT-DISPLAY-USING-AUGMENTED-REALITY/blob/master/texture_1.png)<br />
+![TEXTURE 1](https://github.com/AshishChouhan85/TEAPOT-DISPLAY-USING-AUGMENTED-REALITY/blob/master/texture_1.png)<br /><br/>
 ![TEXTURE 4](https://github.com/AshishChouhan85/TEAPOT-DISPLAY-USING-AUGMENTED-REALITY/blob/master/texture_4.png)<br/>
 
 # PROBLEM STATEMENT AND SUPPORTING FILES CAN BE DOWNLOADED FROM THE LINK BELOW:
