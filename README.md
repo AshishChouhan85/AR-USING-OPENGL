@@ -17,7 +17,7 @@ So,making one's own matrix is recommended.<br />
 # THE VIDEO OF THE OUTPUT CAN BE FOUND IN THE LINK BELOW:
 [Teapot display using AR video](https://drive.google.com/file/d/1d4Gg31SEnZxHiLySTMBHkPcUBMTuvqav/view?usp=sharing)
 
-# THE IMAGES OF TEXTURES AND ARUCO MARKERS ARE:
+# THE IMAGES OF TEXTURES AND ARUCO MARKERS USED ARE:
 ![ARUCO MARKER ID=2](https://github.com/AshishChouhan85/TEAPOT-DISPLAY-USING-AUGMENTED-REALITY/blob/master/ArUcoMarkers/aruco_2.png)<br />
 ![ARUCO MARKER ID=8](https://github.com/AshishChouhan85/TEAPOT-DISPLAY-USING-AUGMENTED-REALITY/blob/master/ArUcoMarkers/aruco_8.png)<br />
 ![TEXTURE 1](https://github.com/AshishChouhan85/TEAPOT-DISPLAY-USING-AUGMENTED-REALITY/blob/master/texture_1.png)<br /><br/>
