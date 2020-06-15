@@ -10,7 +10,17 @@ The opencv window creates border around the detected marker and also displays it
 The opengl window uses rotation vector and translation vector obtained from opencv functions.
 A view matrix was made using an algorithm based on basic trigonometry.
 
+# CAMERA MATRIX FILE
+Although the camera matrix file is uploaded, the matrix is different for different cameras.
+So,making one's own matrix is recommended.
+
 #### THE VIDEO OF THE OUTPUT CAN BE FOUND IN THE LINK BELOW:
 [Teapot display using AR video](https://drive.google.com/file/d/1d4Gg31SEnZxHiLySTMBHkPcUBMTuvqav/view?usp=sharing)
+
+### THE IMAGES OF TEXTURES AND ARUCO MARKERS ARE ADDED.
+
+### PROBLEM STATEMENT AND SUPPORTING FILES CAN BE DOWNLOADED FROM THE LINK BELOW:
+[PROBLEM STATEMENT](https://drive.google.com/file/d/1fvDX_A4LawULbXh-jhPHVor7s173tef9/view?usp=sharing)
+[SUPPORTING FILE](https://drive.google.com/file/d/1uRPgEfEYrKWQnJK-VfJ4YyJbEhthWrfT/view?usp=sharing)
 
 
