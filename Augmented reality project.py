@@ -100,6 +100,7 @@ def init_object_texture(text):
 ############################## FUNCTION TO DISPLAY TEAPOT ################################################
 
 def overlay(aruco_lst):
+    error=0
     rvecs=aruco_lst[0][2]
     tvecs=aruco_lst[0][3][0]
     rmtx = cv2.Rodrigues(rvecs)[0]                                            #CONVERTING ROTATION VECTOR INTO ROTATION MATRIX
@@ -123,9 +124,12 @@ def overlay(aruco_lst):
 
     abs(thetax)
     abs(thetay)                                                                 # FOR NOW, ONLY POSITIVE ANGLES ARE NEEDED
-
-    x=z/(math.tan(thetax))
-    y=z/(math.tan(thetay))                                                      # FINDIND X AND Y TRANSLATION VECTORS OF OPENGL FORMAT BY USING PREVIOUSLY FOUND ANGLES
+    if(z>10 and z<22):
+        error=2.5
+    if(z>=22):
+        error=5
+    x=(z-error)/(math.tan(thetax))
+    y=(z-error)/(math.tan(thetay))                                                      # FINDIND X AND Y TRANSLATION VECTORS OF OPENGL FORMAT BY USING PREVIOUSLY FOUND ANGLES
 
     ################ BY USING ABOVE METHOD WE WILL BE ONLY GETTING POSITIVE X AND Y TRANSLATION VECTORS ##############
     ################ SO THE ALGORITHM USED BELOW WILL CONVERT IT INTO NEGATIVE FORM WHENEVER IT IS REQUIRED ##########
